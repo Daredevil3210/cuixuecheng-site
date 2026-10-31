@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>崔学成 · 个人主页</title>
+  <meta name="description" content="崔学成的个人主页：东北大学计算机科学与技术专业，展示个人简介、荣誉奖项、证书与开源项目。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="崔学成 · 个人主页" />
+  <meta property="og:description" content="东北大学计算机科学与技术 · GPA 4.00/5.0 · 全国大学生数学竞赛一等奖。荣誉奖项、证书与开源项目。" />
+  <meta property="og:image" content="assets/img/hero.webp" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="canonical" href="https://daredevil3210.github.io/cuixuecheng-site/" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <nav class="nav container">
+      <a class="brand" href="#top">崔学成<span>· Cui Xuecheng</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="打开菜单" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">关于</a></li>
+        <li><a href="#honors">荣誉奖项</a></li>
+        <li><a href="#certificates">证书展示</a></li>
+        <li><a href="#projects">开源项目</a></li>
+        <li><a href="#contact">联系</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <p class="eyebrow">计算机科学与技术 · 机器学习 / NLP / Agent</p>
+          <h1>你好，我是<span class="accent">崔学成</span></h1>
+          <p class="lead">
+            东北大学计算机科学与技术专业本科生，专业排名前 17%，GPA 4.00/5.0。
+            热衷于大语言模型、检索与推荐系统、智能体（Agent）方向的工程实践，
+            曾获全国大学生数学竞赛一等奖、国家励志奖学金等多项荣誉。
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://github.com/Daredevil3210" target="_blank" rel="noopener">GitHub 主页</a>
+            <a class="btn ghost" href="#honors">查看荣誉</a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>4.00</strong><span>GPA / 5.0</span></li>
+            <li><strong>32/192</strong><span>专业排名</span></li>
+            <li><strong>10+</strong><span>荣誉与奖项</span></li>
+          </ul>
+        </div>
+        <div class="hero-card" aria-hidden="true">
+          <div class="hero-card-inner">
+            <span class="mono-chip">CUIXC</span>
+            <h3>Cui Xuecheng</h3>
+            <p>Northeastern University · CS</p>
+            <ul>
+              <li>🧠 Machine Learning</li>
+              <li>🔎 Semantic Retrieval</li>
+              <li>🤖 LLM Agents</li>
+              <li>📐 Mathematical Modeling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section-title">关于我</h2>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>教育背景</h3>
+            <p class="timeline-item"><strong>2022.09 – 2026.06</strong> · 东北大学 计算机科学与技术（本科）</p>
+            <p>专业排名 <strong>32 / 192（16.67%）</strong>，GPA <strong>4.0018 / 5.0</strong>。</p>
+            <p class="muted">主修课程：高等数学（98）、C++ 程序设计（98）、线性代数（97）、离散数学（94）、操作系统（92）、计算机组成原理（90）。</p>
+          </div>
+          <div class="about-card">
+            <h3>项目经历</h3>
+            <p class="timeline-item"><strong>2023.06 – 2023.09</strong> · 基于 ERNIE 的文献语义检索系统</p>
+            <p class="muted">搭建召回与排序模型并分别训练，召回模型 recall@20 = 0.813，排序模型 AUC = 0.773。</p>
+            <p class="timeline-item"><strong>2024.09 – 2025.01</strong> · 基于多目标的微信短视频推荐系统</p>
+            <p class="muted">引入 DIN 与 Transformer Encoder 建模兴趣演化，采用 MMoE 多专家网络联合建模，加权 AUC = 0.8185。</p>
+          </div>
+          <div class="about-card">
+            <h3>社会工作</h3>
+            <p class="timeline-item"><strong>2024.11 – 2025.11</strong> · 东北大学秦皇岛分校校友服务中心顾问（聘期一年）</p>
+            <p class="muted">参与校友服务与联络工作，获聘校友服务中心顾问。</p>
+          </div>
+          <div class="about-card">
+            <h3>研究方向</h3>
+            <div class="tags">
+              <span>大语言模型</span><span>Agent</span><span>语义检索</span>
+              <span>推荐系统</span><span>数学建模</span><span>PyTorch</span>
+              <span>LangGraph</span><span>NLP</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Honors -->
+    <section class="section alt" id="honors">
+      <div class="container">
+        <h2 class="section-title">荣誉奖项</h2>
+        <ol class="honor-list">
+          <li><span class="year">2022</span><div><strong>国家励志奖学金</strong><p>2022–2023 学年度国家励志奖学金（编号 2023年673号）。</p></div></li>
+          <li><span class="year">2022</span><div><strong>校级“三好学生”荣誉称号</strong><p>2022–2023 学年校级三好学生。</p></div></li>
+          <li><span class="year">2022–2025</span><div><strong>校级三等奖学金（4 次）</strong><p>2022–2023、2023–2024、2024–2025 学年多次获校级三等奖学金。</p></div></li>
+          <li><span class="year">2023</span><div><strong>校级“优秀团员标兵”荣誉称号</strong><p>2023 年度学团工作表彰，共青团东北大学秦皇岛分校委员会颁发。</p></div></li>
+          <li><span class="year">2023</span><div><strong>国际大学生数学建模竞赛三等奖</strong><p>2023 年国际大学生数学建模竞赛（美赛）三等奖。</p></div></li>
+          <li><span class="year">2024</span><div><strong>第十六届全国大学生数学竞赛（非数学 A 类）一等奖</strong><p>中国数学会颁发，编号 CMS（冀）F20240506。</p></div></li>
+          <li><span class="year">2024</span><div><strong>校级“优秀团干部”荣誉称号</strong><p>2024 年度学团工作表彰，共青团东北大学秦皇岛分校委员会颁发。</p></div></li>
+          <li><span class="year">2024</span><div><strong>校创新创业奖学金</strong><p>2024 年度创新创业奖学金（计算机与通信工程学院）。</p></div></li>
+          <li><span class="year">2024</span><div><strong>校友服务中心顾问聘书</strong><p>获聘东北大学秦皇岛分校校友服务中心顾问，聘期一年。</p></div></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- Certificates -->
+    <section class="section" id="certificates">
+      <div class="container">
+        <h2 class="section-title">证书展示</h2>
+        <p class="section-sub">点击任意证书可放大查看。</p>
+        <div class="cert-grid">
+          <figure class="cert"><img src="assets/img/cert-national-inspirational.webp" alt="国家励志奖学金证书" loading="lazy" /><figcaption>国家励志奖学金</figcaption></figure>
+          <figure class="cert"><img src="assets/img/cert-math-competition.webp" alt="全国大学生数学竞赛一等奖证书" loading="lazy" /><figcaption>全国大学生数学竞赛一等奖</figcaption></figure>
+          <figure class="cert"><img src="assets/img/cert-merit-student.webp" alt="三好学生荣誉证书" loading="lazy" /><figcaption>校级三好学生</figcaption></figure>
+          <figure class="cert"><img src="assets/img/cert-league-member-pacesetter.webp" alt="优秀团员标兵荣誉证书" loading="lazy" /><figcaption>优秀团员标兵</figcaption></figure>
+          <figure class="cert"><img src="assets/img/cert-league-cadre.webp" alt="优秀团干部荣誉证书" loading="lazy" /><figcaption>优秀团干部</figcaption></figure>
+          <figure class="cert"><img src="assets/img/honor-2.webp" alt="创新创业奖学金证书" loading="lazy" /><figcaption>校创新创业奖学金</figcaption></figure>
+          <figure class="cert"><img src="assets/img/honor-6.webp" alt="2022-2023学年第一学期三等奖学金证书" loading="lazy" /><figcaption>三等奖学金 · 2022–2023（一）</figcaption></figure>
+          <figure class="cert"><img src="assets/img/honor-7.webp" alt="2023-2024学年第二学期三等奖学金证书" loading="lazy" /><figcaption>三等奖学金 · 2023–2024（二）</figcaption></figure>
+          <figure class="cert"><img src="assets/img/honor-5.webp" alt="2024-2025学年第一学期三等奖学金证书" loading="lazy" /><figcaption>三等奖学金 · 2024–2025（一）</figcaption></figure>
+          <figure class="cert"><img src="assets/img/honor-4.webp" alt="2024-2025学年第二学期三等奖学金证书" loading="lazy" /><figcaption>三等奖学金 · 2024–2025（二）</figcaption></figure>
+          <figure class="cert portrait"><img src="assets/img/cert-appointment.webp" alt="校友服务中心顾问聘书" loading="lazy" /><figcaption>校友服务中心顾问聘书</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h2 class="section-title">开源项目</h2>
+        <p class="section-sub">以下项目均来自我的 GitHub：<a href="https://github.com/Daredevil3210?tab=repositories" target="_blank" rel="noopener">github.com/Daredevil3210</a></p>
+        <div class="project-grid">
+          <a class="project-card" href="https://github.com/Daredevil3210/transformer-pytorch" target="_blank" rel="noopener">
+            <span class="lang">Python</span>
+            <h3>transformer-pytorch</h3>
+            <p>基于 PyTorch 的 Transformer 中英机器翻译实现，支持训练、Beam Search 解码与 SentencePiece 分词。</p>
+          </a>
+          <a class="project-card" href="https://github.com/Daredevil3210/ernie-semantic-search" target="_blank" rel="noopener">
+            <span class="lang">Jupyter Notebook</span>
+            <h3>ernie-semantic-search</h3>
+            <p>基于 PaddlePaddle 与 ERNIE 的中文文献语义召回和 Pairwise 精排系统。</p>
+          </a>
+          <a class="project-card" href="https://github.com/Daredevil3210/mailflow-agent" target="_blank" rel="noopener">
+            <span class="lang">Python</span>
+            <h3>mailflow-agent</h3>
+            <p>邮件智能体学习项目：LangGraph 工作流、DeepSeek 工具调用、人工审核与评估。</p>
+          </a>
+          <a class="project-card" href="https://github.com/Daredevil3210/langgraph-tutorial" target="_blank" rel="noopener">
+            <span class="lang">Jupyter Notebook</span>
+            <h3>langgraph-tutorial</h3>
+            <p>LangGraph 学习教程：StateGraph 入门、状态定义（TypedDict / dataclass / pydantic）、Reducer、节点状态等示例。</p>
+          </a>
+          <a class="project-card" href="https://github.com/Daredevil3210/langchain-agentic-rag-notes" target="_blank" rel="noopener">
+            <span class="lang">Python</span>
+            <h3>langchain-agentic-rag-notes</h3>
+            <p>基于 LangChain 的个人知识库 Agentic RAG 学习项目。</p>
+          </a>
+          <a class="project-card" href="https://github.com/Daredevil3210/learn-claude-code-notes" target="_blank" rel="noopener">
+            <span class="lang">Python</span>
+            <h3>learn-claude-code-notes</h3>
+            <p>Learn Claude Code（s01–s09）学习笔记与实践，含中英文文档。</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-inner">
+        <h2 class="section-title">联系我</h2>
+        <p class="section-sub">欢迎就科研、实习或开源合作与我交流。</p>
+        <div class="contact-cards">
+          <a class="contact-card" href="mailto:cuixc@mails.neu.edu.cn"><span>📮</span><div><strong>邮箱</strong><p>cuixc@mails.neu.edu.cn</p></div></a>
+          <a class="contact-card" href="https://github.com/Daredevil3210" target="_blank" rel="noopener"><span>💻</span><div><strong>GitHub</strong><p>github.com/Daredevil3210</p></div></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> 崔学成 · 由 GitHub Pages 托管</p>
+    </div>
+  </footer>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="证书预览">
+    <button class="lightbox-close" id="lightboxClose" aria-label="关闭">×</button>
+    <img id="lightboxImg" alt="" />
+    <p id="lightboxCaption"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
